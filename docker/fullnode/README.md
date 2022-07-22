@@ -32,17 +32,20 @@ Install Docker / Docker Compose:
 
 ```sudo chmod +x /usr/bin/docker-compose```
 
-```mkdir sui && cd sui
+```
+mkdir sui && cd sui
 wget -qO docker-compose.yaml https://raw.githubusercontent.com/MystenLabs/sui/main/docker/fullnode/docker-compose.yaml
 
 wget -qO fullnode-template.yaml https://github.com/MystenLabs/sui/raw/main/crates/sui-config/data/fullnode-template.yaml
 
-wget -qO genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob```
+wget -qO genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
+```
 
 ```sed -i 's/127.0.0.1/0.0.0.0/' fullnode-template.yaml```
 
-```docker-compose down --volumes```
-
+```
+docker-compose down --volumes
+```
 ```docker-compose up -d```
 
 ```docker logs -f sui-fullnode-1 --tail 50```
