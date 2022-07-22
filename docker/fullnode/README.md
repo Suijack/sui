@@ -45,7 +45,7 @@ CTRl A+D ile screenden çıkış yapıyoruz.
 
 ## Fullnode Kontrol
 
-Sui fullnode started yazısı görünüyor ve https://node.sui.zvalid.com/  ip niz ile arama yaptığında herhangi bir hata yoksa kurulum doğru yapılmıştır. 
+Sui fullnode started yazısı görünüyor ve https://node.sui.zvalid.com/  ip niz ile arama yaptığınızda herhangi bir hata yoksa kurulum doğru yapılmıştır. 
 
 ## Eğer site üzerinde ip kontrolü yapamıyorsanız portlarda sıkıntı vardır. Bu kodları girmelisiniz. (Ayrıca sunucunuz minumum istenen gereksinimi karşılamalıdır.)
 
