@@ -34,6 +34,7 @@ Install Docker / Docker Compose:
 
 ```
 mkdir sui && cd sui
+
 wget -qO docker-compose.yaml https://raw.githubusercontent.com/MystenLabs/sui/main/docker/fullnode/docker-compose.yaml
 
 wget -qO fullnode-template.yaml https://github.com/MystenLabs/sui/raw/main/crates/sui-config/data/fullnode-template.yaml
