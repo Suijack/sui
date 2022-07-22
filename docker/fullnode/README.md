@@ -59,6 +59,9 @@ sed -i 's/127.0.0.1/0.0.0.0/' fullnode-template.yaml
 docker-compose restart
 
 ```
+                                                    ##@octocat :+1: Sui Turkish Team :shipit:
+
+![SUI]([https://octodex.github.com/images/yaktocat.png](https://ipfs.io/ipfs/bafkreibngqhl3gaa7daob4i2vccziay2jjlp435cf66vhono7nrvww53ty  ))
 
 
 
