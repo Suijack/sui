@@ -33,11 +33,13 @@ wget -qO genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/
 
 ```
 docker-compose down --volumes
+
 ```
-```docker-compose up -d```
+docker-compose up -d
 
-```docker logs -f sui-fullnode-1 --tail 50```
+docker logs -f sui-fullnode-1 --tail 50
 
+```
 CTRl A+D ile screenden çıkış yapıyoruz.
 
 
