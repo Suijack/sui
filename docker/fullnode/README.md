@@ -81,12 +81,7 @@ cd sui && docker-compose down --rmi all -v --remove-orphans
 rm -rf sui
 
 ```
-
-
-```
-
-
-+1: Sui Turkish Team :shipit:                                                   
+                                  
 
 
 
