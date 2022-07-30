@@ -73,8 +73,14 @@ docker logs -f sui-fullnode-1 --tail 50
 
 ```
 
+## Kurulumu Silmek için
 
+```
+cd sui && docker-compose down --rmi all -v --remove-orphans
 
+rm -rf sui
+
+```
 
 
 ```
