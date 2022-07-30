@@ -86,7 +86,7 @@ rm -rf sui
 ```
 
 
-:+1: Sui Turkish Team :shipit:                                                   
++1: Sui Turkish Team :shipit:                                                   
 
 
 
