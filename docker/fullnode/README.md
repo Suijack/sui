@@ -50,7 +50,7 @@ Sui fullnode started yazısı görünüyor ve https://node.sui.zvalid.com/  ip n
 ## Eğer site üzerinde ip kontrolü yapamıyorsanız portlarda sıkıntı vardır. Bu kodları girmelisiniz. (Ayrıca sunucunuz minumum istenen gereksinimi karşılamalıdır.)
 
 ```
-sudo ufw enable
+
 sudo ufw allow 9000
 sudo ufw allow 9184
 sudo ufw allow 8080
