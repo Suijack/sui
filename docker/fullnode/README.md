@@ -78,7 +78,7 @@ docker logs -f sui-fullnode-1 --tail 50
 ```
 cd sui && docker-compose down --rmi all -v --remove-orphans
 
-rm -rf sui
+cd $home && rm -rf sui
 
 ```
                                   
