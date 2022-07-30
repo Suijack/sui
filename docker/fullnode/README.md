@@ -67,6 +67,7 @@ cd sui && rm -rf genesis.blob
 wget -qO genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
 sed -i 's/main/stable/' docker-compose.yaml
 docker-compose down --rmi all -v --remove-orphans
+docker rmi -f `docker images -qa `
 docker-compose up -d
 docker logs -f sui-fullnode-1 --tail 50
 
