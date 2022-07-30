@@ -59,6 +59,25 @@ sed -i 's/127.0.0.1/0.0.0.0/' fullnode-template.yaml
 docker-compose restart
 
 ```
+
+## Güncelleme Kodları
+
+```
+cd sui && rm -rf genesis.blob
+wget -qO genesis.blob https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
+sed -i 's/main/stable/' docker-compose.yaml
+docker-compose down --rmi all -v --remove-orphans
+docker logs -f sui-fullnode-1 --tail 50
+
+```
+
+
+
+
+
+```
+
+
 :+1: Sui Turkish Team :shipit:                                                   
 
 
